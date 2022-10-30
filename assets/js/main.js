@@ -73,7 +73,7 @@ tabs.forEach(tab => {
 
 /*==================== PORTFOLIO SWIPER  ====================*/
 let swiperPortfolio = new Swiper(".portfolio__container", {
-    loop: true,
+    loop: false,
     cssMode: true,
     navigation: {
         nextEl: ".swiper-button-next",
